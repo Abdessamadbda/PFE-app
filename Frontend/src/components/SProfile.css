@@ -1,0 +1,66 @@
+.infosDiv{
+    border: 0.4px solid;
+    border-color: black;
+    border-radius: 3%;
+    margin: 4rem 18rem 18rem;
+    padding-top: 19px;
+    padding-left: 19px;
+    padding-bottom: 19px;
+}
+.infos{
+    font-family: Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.item{
+    color: blue;
+    font-family: Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.topicField{
+    border: 0.4px solid;
+    border-color: black;
+    border-radius: 3%;
+    margin-top: -12rem;
+    margin-left: 1rem;
+    margin-right: 40rem;
+    margin-bottom: 4rem;
+    padding-top: 19px;
+    padding-left: 19px;
+    padding-bottom: 19px;
+}
+.input{
+    height: 2.5rem ;
+    width: 80%;
+    border: 0.4px solid;
+    border-color: black;
+    border-radius: 5%;
+    margin-left: 2rem;
+}
+.button{
+    background-color: rgb(84, 184, 84);
+    height: 9%;
+    width: 16%;
+    border-radius: 3%;
+    margin-left: 69%;
+}
+.evns{
+    border: 0.4px solid;
+    border-color: black;
+    border-radius: 3%;
+    margin-top: -17rem;
+    margin-left: 45rem;
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+    padding-top: 19px;
+    padding-left: 19px;
+    padding-bottom: 19px;
+   
+
+}
+.img{
+    height: 32px;
+    width: 32px;
+    position: absolute;
+}
