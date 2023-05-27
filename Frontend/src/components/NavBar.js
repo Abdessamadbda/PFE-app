@@ -34,17 +34,17 @@ function NavBar() {
             </li>
             <li className='nav-item'> 
               <Link
-                to='/Enterprise' className={activeLink === 'link3' ? 'nav-link' : 'nav-links'} onClick={() => handleLinkClick('link3')}      
+                to='/Coordinateur/PLogin' className={activeLink === 'link4' ? 'nav-link' : 'nav-links'} onClick={() => handleLinkClick('link4')}
+                
               >
-                Espace Entreprise 
+                Espace Coordinateur 
               </Link>
             </li>
             <li className='nav-item'> 
               <Link
-                to='/Coordinateur' className={activeLink === 'link4' ? 'nav-link' : 'nav-links'} onClick={() => handleLinkClick('link4')}
-                
+                to='/Entreprise/Form' className={activeLink === 'link3' ? 'nav-link' : 'nav-links'} onClick={() => handleLinkClick('link3')}      
               >
-                Espace Coordinateur 
+                Espace Entreprise 
               </Link>
             </li>
           </ul>

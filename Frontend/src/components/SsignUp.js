@@ -51,7 +51,7 @@ import "./SLogin.css";
       <p className="Title">Inscription</p>
       <form onSubmit={handleSubmit}>
       <div size="lg" >
-          <label>Nom</label>
+          <label>Nom & Prénom</label>
           <input style={{width:'30em',height:'3em'}} name="nom" onChange={handleInput}/>
       </div>
       <br />
@@ -73,9 +73,9 @@ import "./SLogin.css";
         <label>Niveau</label>
         <select value={selectedNiveau} onChange={handleOptionChange} style={{width:'30em',height:'3em'}} name="niveau">
         <option value=""></option>
-          <option value="ine1">ine1</option>
-          <option value="ine2">ine2</option>
-          <option value="ine3">ine3</option>
+          <option value="INE1">INE1</option>
+          <option value="INE2">INE2</option>
+          <option value="INE3">INE3</option>
         </select>
       </div>
       <br />

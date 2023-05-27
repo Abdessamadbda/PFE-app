@@ -1,5 +1,4 @@
 import SInfos from "../../SInfos";
-import NavBar from "../../NavBar";
 import Footer from '../../Footer';
 
 function Infos() {

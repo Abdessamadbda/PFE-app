@@ -1,5 +1,4 @@
 import SLogin from "../../SLogin";
-import NavBar from "../../NavBar";
 function Login() {
     
     
