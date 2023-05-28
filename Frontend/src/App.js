@@ -21,17 +21,17 @@ function App() {
   return (
     <>
    
-     {location.pathname !== '/Student/Profile' && location.pathname !== '/Coordinateur/ListeTopic' && <NavBar />}
+     {location.pathname !== '/Student/Profile' && location.pathname !== '/Coordinateur/ListeTopic' && location.pathname !== '/Student/Topics' && <NavBar />}
       <Routes>
         <Route path='/' exact component={Home} element={<Home/>}/>
         <Route path='/Student/Login' exact component={Login} element={<Login/>}/>
         <Route path='/Student/SignUp' exact component={SignUp} element={<SignUp/>}/>
         <Route path='/Student/Profile' exact component={Profile} element={<Profile/>}/>
         <Route path='/Student/Infos' exact component={Infos} element={<Infos/>}/>
+        <Route path='/Student/Topics' exact component={Topics} element={<Topics/>}/>
         <Route path='/Coordinateur/PLogin' exact component={PLogin} element={<PLogin/>}/>
         <Route path='/Coordinateur/ListeTopic' exact component={ListeTopic} element={<ListeTopic/>}/>
         <Route path='/Entreprise/Form' exact component={Form} element={<Form/>}/>
-        <Route path='/Student/Topics' exact component={Topics} element={<Topics/>}/>
 
 
 
