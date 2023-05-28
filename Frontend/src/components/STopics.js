@@ -29,26 +29,25 @@ function STopics() {
 <br></br>
       <table >
         <thead>
-          <tr>
-            <th>Nom</th>
-            <th>Adresse</th>
-            <th>Email</th>
-            <th>Sujet proposé</th>
-            <th>Niveau</th>
-            <th>Demande Partenariat</th>
+          <tr >
+            <th style={{color:'blue'}}>Nom de l'entreprise</th>
+            <th style={{color:'blue'}}>Adresse</th>
+            <th style={{color:'blue'}}>Email</th>
+            <th style={{color:'blue'}}>Sujet proposé</th>
+            <th style={{color:'blue'}}>Niveau</th>
           </tr>
         </thead>
         <tbody>
           {entreprises.map((entreprise) => (
             !entreprise.deleted && (
               <>
-            <tr style={{ marginBottom: '1rem' }} key={entreprise.id} >
-              <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{entreprise.nom}</td>
+              <tr style={{ marginTop: '2rem' }}><br/></tr>
+            <tr  key={entreprise.id} >
+              <td >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{entreprise.nom}</td>
               <td>&nbsp;&nbsp;&nbsp;&nbsp;{entreprise.adresse}</td>
               <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{entreprise.email}</td>
               <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{entreprise.sujet}</td>
               <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{entreprise.niveau}</td>
-              <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{entreprise.demande_partenariat}</td>
             </tr>
             </>
             )

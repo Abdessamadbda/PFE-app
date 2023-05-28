@@ -44,8 +44,12 @@ function SEntreprise() {
       <p className="Title">Bienvenue dans votre espace entreprise</p>
       <br/>
       <h4 style={{textAlign:'center', color:'blue'}}>Si vous cherchez des stagiaires talentueux et passionnés pour travailler sur diverses problématiques<br/>Veuillez remplir ce formulaire</h4>
-
-      <form onSubmit={handleSubmit}>
+<div style={{ display: 'grid', gridTemplateColumns: '8fr 8fr', gap: '2em' }}>
+<div>
+    <img style={{width:'50%', position:'absolute',height:'93%',marginTop:'5rem',borderRadius:'3rem',marginLeft:'3rem'}} src="/images/entreprise.png" alt="Votre image" />
+  </div>
+      <form onSubmit={handleSubmit} >
+        <br/>
         <div>
           <label>Nom de l'entreprise</label>
           <input onChange={handleInput} style={{ width: '30em', height: '3em' }} name="nom" />
@@ -89,6 +93,7 @@ function SEntreprise() {
 
         <button style={{ backgroundColor: 'green' }} block type="submit" value="SEND">Envoyer</button>
       </form>
+      </div>
       <br />
       <br/>
 
